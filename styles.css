@@ -1,0 +1,99 @@
+body {
+    background-image: url(../Background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+    font-size: 2rem;
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 20px;
+}
+
+.nav ul li a {
+    text-decoration: none;
+}
+
+.nav ul li a:hover {
+    color: black;
+}
+
+.banner {
+    position: relative;
+    background-image: url(./images/Banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+    height: 700px; 
+}
+
+.center-div {
+    color: white;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.center-div {
+    padding-top: 200px;
+}
+
+.banner-button {
+    text-transform: uppercase;
+    background-color: white;
+    width: 200px;
+    height: 50px;
+    border-radius: 25px;
+    margin-top: 15px;
+}
+
+.banner-button:hover {
+    background-color: black;
+    color: white;
+    transition: 0.4s;
+}
+
+.products {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.beans {
+    border: 2px solid black;
+}
+
+.beans:hover {
+    border: 2px solid white;
+}
+
+.team {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
+.individual {
+    color: #D5DF9A;
+    font-weight: 800;
+    font-size: 1.5rem;
+    text-align: center;
+}
+
