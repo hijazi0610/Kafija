@@ -32,7 +32,7 @@ h2 {
 
 .banner {
     position: relative;
-    background-image: url(./images/Banner.jpg);
+    background-image: url("images/Banner.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center; 
